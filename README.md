@@ -22,7 +22,7 @@ Open terminal in VS Code and type in:
 streamlit run app.py
 ```
 
-then open browser and point to https://localhost:8501
+then open a browser and point to https://localhost:8501
 
 
 
@@ -40,15 +40,11 @@ then open browser and point to https://localhost:8501
    docker run -dp 127.0.0.1:8501:8501 --name DigiResume marcuszou/digitalresume:0.1
    ```
 
-3. Open a browser and point to:
-
-   ```
-   https://127.0.0.1:8501
-   ```
+3. Open a browser and point to https://127.0.0.1:8501
 
 
 
-## Deploy the webapp to Netlify.com
+## Deploy the webapp to render.com
 
 1. Push the webapp to GitHub
 
@@ -61,9 +57,9 @@ then open browser and point to https://localhost:8501
    git push -u origin main
    ```
 
-2. Deploy the webapp to Render.com as a `Web Service`:
+2. Deploy the webapp to `render.com` as a `Web Service`:
 
-   - connecting to the very GitHub repo,
+   - from render.com, connecting to the very GitHub repo,
    - Specify the parameters for the website:
      - `Name`="DigiCV666", 
      - `Branch`="main",
@@ -74,14 +70,10 @@ then open browser and point to https://localhost:8501
 
    
 
-3. Open a browser ad point to the website you just deployed
-
-   ```
-   https://digicv66.onrender.com/
-   ```
+3. Open a browser and point to the website https://digicv666.onrender.com/
 
    
 
 ## License
 
-* GPL
+\- GPL
