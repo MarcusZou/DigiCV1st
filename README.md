@@ -31,13 +31,13 @@ then open a browser and point to https://localhost:8501
 1. Start your Docker Desktop (Windows or macOS), then build the image
 
    ```
-   docker build -t marcuszou/digitalresume:0.1 .
+   docker build -t marcuszou/digicv1streamlit:0.1 .
    ```
 
 2. Docker run:
 
    ```
-   docker run -dp 127.0.0.1:8501:8501 --name DigiResume marcuszou/digitalresume:0.1
+   docker run -dp 127.0.0.1:8501:8501 --name DigiCV1 marcuszou/digicv1streamlit:0.1
    ```
 
 3. Open a browser and point to https://127.0.0.1:8501
