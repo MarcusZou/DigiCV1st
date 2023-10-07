@@ -31,13 +31,13 @@ then open a browser and point to https://localhost:8501
 1. Start your Docker Desktop (Windows or macOS), then build the image
 
    ```
-   docker build -t marcuszou/digicv1streamlit:0.1 .
+   docker build -t marcuszou/digicv1st:0.1 .
    ```
 
 2. Docker run:
 
    ```
-   docker run -dp 127.0.0.1:8501:8501 --name DigiCV1 marcuszou/digicv1streamlit:0.1
+   docker run -dp 127.0.0.1:8501:8501 --name DigiCV1st marcuszou/digicv1st:0.1
    ```
 
 3. Open a browser and point to https://127.0.0.1:8501
@@ -61,7 +61,7 @@ then open a browser and point to https://localhost:8501
 
    - from render.com, connecting to the very GitHub repo,
    - Specify the parameters for the website:
-     - `Name`="DigiCV666", 
+     - `Name`="DigiCV1st", 
      - `Branch`="main",
      - `Root Directory`="",
      - `Runtime`= "Python 3",
@@ -70,7 +70,7 @@ then open a browser and point to https://localhost:8501
 
    
 
-3. Open a browser and point to the website https://digicv666.onrender.com/
+3. Open a browser and point to the website https://digicv1st.onrender.com/
 
    
 
